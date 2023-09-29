@@ -2,25 +2,25 @@
 
 ## <a href="https://www.notion.so/UIKit-42fd7d28ed664ec9a7c040d46cb3de35">📚 커리큘럼</a>
 
-[1주차] Swift란?
+<a href="https://www.notion.so/1-Swift-099bf96aa5d649178d01a606a9bd8ebc">[1주차] Swift란?</a>
 
-[2주차] 기본 컴포넌트
+<a href="https://www.notion.so/2-0e4890f32f14466b8ab2691b5c9e426a">[2주차] 기본 컴포넌트</a>
 
-[3주차] MVVM
+<a href="https://www.notion.so/3-MVVM-79e1250d50f3415aa13248eb82e508fe">[3주차] MVVM</a>
 
-[4주차] MVC
+<a href="https://www.notion.so/4-MVC-d7c92ae665bb4ee4ae3edce1cc8a9af7">[4주차] MVC</a>
 
-[5주차] Auto Layout - 1
+<a href="https://www.notion.so/5-Auto-Layout-1-7cf18380f4594c27984041e485b2726c">[5주차] Auto Layout - 1</a>
 
-[6주차] Auto Layout - 2
+<a href="https://www.notion.so/6-Auto-Layout-2-811ffbffa3f74938adcd68b3d6cfd816">[6주차] Auto Layout - 2</a>
 
-[7주차] 네트워크 모듈 - 1
+<a href="https://www.notion.so/7-1-8fb33260f6954fbb980f8ac2e7ced13f">[7주차] 네트워크 모듈 - 1</a>
 
-[8주차] 네트워크 모듈 - 2
+<a href="https://www.notion.so/8-2-0d379cc8a8224429ad224dc7b12301f5">[8주차] 네트워크 모듈 - 2</a>
 
-[9주차] 미니 프로젝트 - 1
+<a href="https://www.notion.so/9-1-fb5b3f541b014640bceb37c950ebb5c6">[9주차] 미니 프로젝트 - 1</a>
 
-[10주차] 미니 프로젝트 - 2
+<a href="https://www.notion.so/10-2-ccd73d7e3b964b2d9a2e71553ef0c352">[10주차] 미니 프로젝트 - 2</a>
 
 <br/>
 
