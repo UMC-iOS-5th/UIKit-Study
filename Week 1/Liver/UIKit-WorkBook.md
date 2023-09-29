@@ -134,12 +134,16 @@
 ### <실습 인증>
 
 <변수와 상수>
+![image](https://github.com/UMC-iOS-5th/UIKit-Study/assets/21362256/93e6340b-5599-4b5e-989d-8fbbb8e5a962)
 
 <옵셔널>
+![image](https://github.com/UMC-iOS-5th/UIKit-Study/assets/21362256/3ef7e2e5-37e8-417b-b1e5-44f5b44ebf5d)
 
 <타입 세이프티 & 타입 추론>
+![image](https://github.com/UMC-iOS-5th/UIKit-Study/assets/21362256/36bb54e8-c6f5-4750-a5f8-bc271528845e)
 
 <옵셔널 바인딩>
+![image](https://github.com/UMC-iOS-5th/UIKit-Study/assets/21362256/31c37a8b-d391-44d7-b958-c62ac529626f)
 
 [스위프트 번역본]
 
