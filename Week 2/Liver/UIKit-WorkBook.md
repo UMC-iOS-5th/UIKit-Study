@@ -36,7 +36,10 @@
 - UILabel
     
     
-    ![Untitled](%5B2%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%5D%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A9%E1%86%AB%20%E1%84%8F%E1%85%A5%E1%86%B7%E1%84%91%E1%85%A9%E1%84%82%E1%85%A5%E1%86%AB%E1%84%90%E1%85%B3%2051cdddf3656c4d17aa5a551ae0ef7010/Untitled.png)
+    ![Untitled](https://github.com/UMC-iOS-5th/UIKit-Study/assets/21362256/926ef804-15bb-4078-b79f-e4e29a691266)
+  
+
+  
     
     <UILabel>
     
@@ -126,7 +129,8 @@
 - UIButton
     
     
-    ![Untitled](%5B2%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%5D%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A9%E1%86%AB%20%E1%84%8F%E1%85%A5%E1%86%B7%E1%84%91%E1%85%A9%E1%84%82%E1%85%A5%E1%86%AB%E1%84%90%E1%85%B3%2051cdddf3656c4d17aa5a551ae0ef7010/Untitled%201.png)
+
+    ![Untitled 1](https://github.com/UMC-iOS-5th/UIKit-Study/assets/21362256/ab9d8479-589e-49ca-8ee7-c45d6a1f290e)
     
     <UIButton>
     
@@ -211,7 +215,8 @@
 - UITextField
     
     
-    ![Untitled](%5B2%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%5D%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A9%E1%86%AB%20%E1%84%8F%E1%85%A5%E1%86%B7%E1%84%91%E1%85%A9%E1%84%82%E1%85%A5%E1%86%AB%E1%84%90%E1%85%B3%2051cdddf3656c4d17aa5a551ae0ef7010/Untitled%202.png)
+    ![Untitled 2](https://github.com/UMC-iOS-5th/UIKit-Study/assets/21362256/b7a15c83-6349-43d0-a2e1-1a1461498eda)
+
     
     <UITextField>
     
@@ -291,7 +296,8 @@
 - UITextView
     
     
-    ![Untitled](%5B2%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%5D%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A9%E1%86%AB%20%E1%84%8F%E1%85%A5%E1%86%B7%E1%84%91%E1%85%A9%E1%84%82%E1%85%A5%E1%86%AB%E1%84%90%E1%85%B3%2051cdddf3656c4d17aa5a551ae0ef7010/Untitled%203.png)
+    ![Untitled 3](https://github.com/UMC-iOS-5th/UIKit-Study/assets/21362256/b065e593-dc41-4fc2-92db-246973dfc238)
+
     
     <UITextView>
     
@@ -380,11 +386,13 @@
 - UIImageView
     
     
-    ![Untitled](%5B2%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%5D%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A9%E1%86%AB%20%E1%84%8F%E1%85%A5%E1%86%B7%E1%84%91%E1%85%A9%E1%84%82%E1%85%A5%E1%86%AB%E1%84%90%E1%85%B3%2051cdddf3656c4d17aa5a551ae0ef7010/Untitled%204.png)
+    ![Untitled 4](https://github.com/UMC-iOS-5th/UIKit-Study/assets/21362256/27d1e45b-3b34-4ede-b0a1-b23fb1005248)
+
     
     <실습용 사진>
     
-    [INHA-UMC-5th.png](%5B2%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%5D%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A9%E1%86%AB%20%E1%84%8F%E1%85%A5%E1%86%B7%E1%84%91%E1%85%A9%E1%84%82%E1%85%A5%E1%86%AB%E1%84%90%E1%85%B3%2051cdddf3656c4d17aa5a551ae0ef7010/INHA-UMC-5th.png)
+    ![INHA-UMC-5th](https://github.com/UMC-iOS-5th/UIKit-Study/assets/21362256/1c551d4a-501f-40d1-ad41-5aab4042e3c8)
+
     
     <UIImageView>
     
@@ -464,7 +472,8 @@
 - UITableView
     
     
-    ![Untitled](%5B2%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%5D%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A9%E1%86%AB%20%E1%84%8F%E1%85%A5%E1%86%B7%E1%84%91%E1%85%A9%E1%84%82%E1%85%A5%E1%86%AB%E1%84%90%E1%85%B3%2051cdddf3656c4d17aa5a551ae0ef7010/Untitled%205.png)
+    ![Untitled 5](https://github.com/UMC-iOS-5th/UIKit-Study/assets/21362256/efaa7eb4-644f-4a2a-a1e7-9d18bad70bd6)
+
     
     <UITableView>
     
@@ -571,203 +580,33 @@
     }
     ```
     
-
-<작성 중>
-
-- UICollectionView
-    
-    
-    ![Untitled](%5B2%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%5D%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A9%E1%86%AB%20%E1%84%8F%E1%85%A5%E1%86%B7%E1%84%91%E1%85%A9%E1%84%82%E1%85%A5%E1%86%AB%E1%84%90%E1%85%B3%2051cdddf3656c4d17aa5a551ae0ef7010/Untitled%201.png)
-    
-    <UICollectionView>
-    
-    - 컬렉션 뷰를 생성하고 표시하는 데 사용
-    - 그리드 형태의 데이터를 표시하고 편집하는 데 사용
-    
-    [Method & Property]
-    
-    - **backgroundColor:** 배경 색을 지정한다.
-    - **setTitle():** 버튼에 넣을 텍스트를 지정한다.
-    - ******************************setTitleColor():****************************** 버튼의 텍스트 색상을 지정한다.
-    - **addTarget():** 버튼의 이벤트에 대한 액션을 추가한다.
-    
-    등… 프로퍼티 및 메서드 추가로 공부해보기!
-    
-    ```swift
-    
-    ```
-    
-- UISegmentedControl
-    
-    
-    ![Untitled](%5B2%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%5D%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A9%E1%86%AB%20%E1%84%8F%E1%85%A5%E1%86%B7%E1%84%91%E1%85%A9%E1%84%82%E1%85%A5%E1%86%AB%E1%84%90%E1%85%B3%2051cdddf3656c4d17aa5a551ae0ef7010/Untitled%201.png)
-    
-    <UISegmentedControl>
-    
-    - 다중 선택 옵션을 제공하는 컨트롤
-    - 여러 세그먼트 중 하나를 선택할 수 있다.
-    
-    [Method & Property]
-    
-    - **backgroundColor:** 배경 색을 지정한다.
-    - **setTitle():** 버튼에 넣을 텍스트를 지정한다.
-    - ******************************setTitleColor():****************************** 버튼의 텍스트 색상을 지정한다.
-    - **addTarget():** 버튼의 이벤트에 대한 액션을 추가한다.
-    
-    등… 프로퍼티 및 메서드 추가로 공부해보기!
-    
-    ```swift
-    
-    ```
-    
-- UISlider
-    
-    
-    ![Untitled](%5B2%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%5D%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A9%E1%86%AB%20%E1%84%8F%E1%85%A5%E1%86%B7%E1%84%91%E1%85%A9%E1%84%82%E1%85%A5%E1%86%AB%E1%84%90%E1%85%B3%2051cdddf3656c4d17aa5a551ae0ef7010/Untitled%201.png)
-    
-    <UISlider>
-    
-    - 값의 범위를 나타내는 슬라이더를 생성하는 데 사용
-    - 슬라이더를 조작하여 값을 선택하거나 조절 가능
-    
-    [Method & Property]
-    
-    - **backgroundColor:** 배경 색을 지정한다.
-    - **setTitle():** 버튼에 넣을 텍스트를 지정한다.
-    - ******************************setTitleColor():****************************** 버튼의 텍스트 색상을 지정한다.
-    - **addTarget():** 버튼의 이벤트에 대한 액션을 추가한다.
-    
-    등… 프로퍼티 및 메서드 추가로 공부해보기!
-    
-    ```swift
-    
-    ```
-    
-- UITabBarController
-    
-    
-    ![Untitled](%5B2%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%5D%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A9%E1%86%AB%20%E1%84%8F%E1%85%A5%E1%86%B7%E1%84%91%E1%85%A9%E1%84%82%E1%85%A5%E1%86%AB%E1%84%90%E1%85%B3%2051cdddf3656c4d17aa5a551ae0ef7010/Untitled%201.png)
-    
-    <UITabBarController>
-    
-    - 다중 탭을 포함하는 탭 바 인터페이스
-    - 다른 화면 또는 뷰 컨트롤러 간에 탭을 전환하는 데 사용
-    
-    [Method & Property]
-    
-    - **backgroundColor:** 배경 색을 지정한다.
-    - **setTitle():** 버튼에 넣을 텍스트를 지정한다.
-    - ******************************setTitleColor():****************************** 버튼의 텍스트 색상을 지정한다.
-    - **addTarget():** 버튼의 이벤트에 대한 액션을 추가한다.
-    
-    등… 프로퍼티 및 메서드 추가로 공부해보기!
-    
-    ```swift
-    
-    ```
-    
-- UINavigationController
-    
-    
-    ![Untitled](%5B2%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%5D%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A9%E1%86%AB%20%E1%84%8F%E1%85%A5%E1%86%B7%E1%84%91%E1%85%A9%E1%84%82%E1%85%A5%E1%86%AB%E1%84%90%E1%85%B3%2051cdddf3656c4d17aa5a551ae0ef7010/Untitled%201.png)
-    
-    <UINavigationController>
-    
-    - 네비게이션 스택을 관리하고 화면 간에 이동하는 데 사용
-    - 이전 화면으로 이동하거나 새로운 화면으로 이동하는 데 사용
-    
-    [Method & Property]
-    
-    - **backgroundColor:** 배경 색을 지정한다.
-    - **setTitle():** 버튼에 넣을 텍스트를 지정한다.
-    - ******************************setTitleColor():****************************** 버튼의 텍스트 색상을 지정한다.
-    - **addTarget():** 버튼의 이벤트에 대한 액션을 추가한다.
-    
-    등… 프로퍼티 및 메서드 추가로 공부해보기!
-    
-    ```swift
-    
-    ```
-    
-- UIScrollView
-    
-    
-    ![Untitled](%5B2%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%5D%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A9%E1%86%AB%20%E1%84%8F%E1%85%A5%E1%86%B7%E1%84%91%E1%85%A9%E1%84%82%E1%85%A5%E1%86%AB%E1%84%90%E1%85%B3%2051cdddf3656c4d17aa5a551ae0ef7010/Untitled%201.png)
-    
-    <UIScrollView>
-    
-    - 스크롤 가능한 컨텐츠를 표시하고 스크롤하는 데 사용
-    - 큰 데이터나 이미지를 표시할 때 유용
-    
-    [Method & Property]
-    
-    - **backgroundColor:** 배경 색을 지정한다.
-    - **setTitle():** 버튼에 넣을 텍스트를 지정한다.
-    - ******************************setTitleColor():****************************** 버튼의 텍스트 색상을 지정한다.
-    - **addTarget():** 버튼의 이벤트에 대한 액션을 추가한다.
-    
-    등… 프로퍼티 및 메서드 추가로 공부해보기!
-    
-    ```swift
-    
-    ```
-    
-- UIActivityIndicatorView
-    
-    
-    ![Untitled](%5B2%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%5D%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A9%E1%86%AB%20%E1%84%8F%E1%85%A5%E1%86%B7%E1%84%91%E1%85%A9%E1%84%82%E1%85%A5%E1%86%AB%E1%84%90%E1%85%B3%2051cdddf3656c4d17aa5a551ae0ef7010/Untitled%201.png)
-    
-    <UIActivityIndicatorView>
-    
-    - 작업이 진행 중임을 나타내는 회전하는 인디케이터를 표시하는 데 사용
-    - 데이터를 로드하는 동안 사용자에게 진행 상황을 표시하는 데 유용
-    
-    [Method & Property]
-    
-    - **backgroundColor:** 배경 색을 지정한다.
-    - **setTitle():** 버튼에 넣을 텍스트를 지정한다.
-    - ******************************setTitleColor():****************************** 버튼의 텍스트 색상을 지정한다.
-    - **addTarget():** 버튼의 이벤트에 대한 액션을 추가한다.
-    
-    등… 프로퍼티 및 메서드 추가로 공부해보기!
-    
-    ```swift
-    
-    ```
-    
-- UIAlertController
-    
-    
-    ![Untitled](%5B2%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%5D%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A9%E1%86%AB%20%E1%84%8F%E1%85%A5%E1%86%B7%E1%84%91%E1%85%A9%E1%84%82%E1%85%A5%E1%86%AB%E1%84%90%E1%85%B3%2051cdddf3656c4d17aa5a551ae0ef7010/Untitled%201.png)
-    
-    <UIAlertController>
-    
-    - 경고창 또는 액션 시트를 표시하는 데 사용
-    - 사용자에게 메시지를 표시하고 선택 사항을 제공
-    
-    [Method & Property]
-    
-    - **backgroundColor:** 배경 색을 지정한다.
-    - **setTitle():** 버튼에 넣을 텍스트를 지정한다.
-    - ******************************setTitleColor():****************************** 버튼의 텍스트 색상을 지정한다.
-    - **addTarget():** 버튼의 이벤트에 대한 액션을 추가한다.
-    
-    등… 프로퍼티 및 메서드 추가로 공부해보기!
-    
-    ```swift
-    
-    ```
     
 
 ### <실습 인증>
 
 - UIKit에서 SwiftUI처럼 Preview를 사용하는 방법
-    
-    
+  <img width="1728" alt="Screenshot 2023-09-30 at 3 28 05 AM" src="https://github.com/UMC-iOS-5th/UIKit-Study/assets/21362256/1d382a7c-678a-4f4b-b2c0-97c6f4b7fdf0">
+
 - UIView
+  
+
 - UILabel
+  <img width="1728" alt="Screenshot 2023-09-30 at 3 28 54 AM" src="https://github.com/UMC-iOS-5th/UIKit-Study/assets/21362256/ce83d4ad-8ad7-4c5f-8092-fc06f6fef54a">
+
 - UIButton
+  <img width="1728" alt="Screenshot 2023-09-30 at 3 29 12 AM" src="https://github.com/UMC-iOS-5th/UIKit-Study/assets/21362256/00d8f49b-0496-4f49-a205-fa5dbd82ff3a">
+
 - UITextField
+  <img width="1728" alt="Screenshot 2023-09-30 at 3 29 26 AM" src="https://github.com/UMC-iOS-5th/UIKit-Study/assets/21362256/018ced35-bb6c-47cd-90d3-d67b44f89951">
+
 - UITextView
+  <img width="1728" alt="Screenshot 2023-09-30 at 3 29 37 AM" src="https://github.com/UMC-iOS-5th/UIKit-Study/assets/21362256/3f46e8af-4420-4287-87e1-2aba5d033278">
+  
 - UIImageView
+  <img width="1728" alt="Screenshot 2023-09-30 at 3 29 46 AM" src="https://github.com/UMC-iOS-5th/UIKit-Study/assets/21362256/c77f6309-2eee-4878-a7de-1473347f1c21">
+
+  
 - UITableView
+  <img width="1728" alt="Screenshot 2023-09-30 at 3 29 57 AM" src="https://github.com/UMC-iOS-5th/UIKit-Study/assets/21362256/685ec981-0163-4441-ae13-0221c2176d38">
+
+  
