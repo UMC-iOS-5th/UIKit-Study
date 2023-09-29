@@ -1,6 +1,6 @@
 # 👊🏻 UMC iOS 5th UIKit 부시기
 
-## 📚 커리큘럼
+## <a href="https://www.notion.so/UIKit-42fd7d28ed664ec9a7c040d46cb3de35">📚 커리큘럼</a>
 
 [1주차] Swift란?
 
