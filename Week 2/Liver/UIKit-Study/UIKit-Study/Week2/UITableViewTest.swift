@@ -87,7 +87,7 @@ class UITableViewTest: UIViewController, UITableViewDataSource, UITableViewDeleg
 import SwiftUI
 
 @available(iOS 13.0.0, *)
-struct UITableViewTestControllerPreView: PreviewProvider {
+struct UITableViewTestControllerPreview: PreviewProvider {
     static var previews: some View {
         UITableViewTest().toPreview()
     }

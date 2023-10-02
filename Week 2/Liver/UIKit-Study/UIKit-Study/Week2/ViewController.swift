@@ -694,7 +694,7 @@ class NextViewController: UIViewController {
 import SwiftUI
 
 @available(iOS 13.0.0, *)
-struct ViewControllerPreView: PreviewProvider {
+struct ViewControllerPreview: PreviewProvider {
     static var previews: some View {
         ViewController().toPreview()
     }

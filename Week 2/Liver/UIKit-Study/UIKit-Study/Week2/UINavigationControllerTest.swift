@@ -100,7 +100,7 @@ class NextViewControllerTest: UIViewController {
 import SwiftUI
 
 @available(iOS 13.0.0, *)
-struct UINavigationControllerTestPreView: PreviewProvider {
+struct UINavigationControllerTestPreview: PreviewProvider {
     static var previews: some View {
         UINavigationControllerTest().toPreview()
     }

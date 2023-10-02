@@ -64,7 +64,7 @@ class UITextViewTest: UIViewController, UITextViewDelegate {
 import SwiftUI
 
 @available(iOS 13.0.0, *)
-struct UITextViewTestPreView: PreviewProvider {
+struct UITextViewTestPreview: PreviewProvider {
     static var previews: some View {
         UITextViewTest().toPreview()
     }

@@ -59,7 +59,7 @@ class UISegmentedControlTest: UIViewController {
 import SwiftUI
 
 @available(iOS 13.0.0, *)
-struct UISegmentControlTestPreView: PreviewProvider {
+struct UISegmentedControlTestPreview: PreviewProvider {
     static var previews: some View {
         UISegmentedControlTest().toPreview()
     }

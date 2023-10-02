@@ -55,7 +55,7 @@ class UIViewTest: UIViewController {
 import SwiftUI
 
 @available(iOS 13.0.0, *)
-struct UIViewTestPreView: PreviewProvider {
+struct UIViewTestPrebiew: PreviewProvider {
     static var previews: some View {
         UIViewTest().toPreview()
     }

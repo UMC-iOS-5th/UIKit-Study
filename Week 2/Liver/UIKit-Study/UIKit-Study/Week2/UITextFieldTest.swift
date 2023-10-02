@@ -58,7 +58,7 @@ class UITextFieldTest: UIViewController, UITextFieldDelegate {
 import SwiftUI
 
 @available(iOS 13.0.0, *)
-struct UITextFieldTestPreView: PreviewProvider {
+struct UITextFieldTestPreview: PreviewProvider {
     static var previews: some View {
         UITextFieldTest().toPreview()
     }

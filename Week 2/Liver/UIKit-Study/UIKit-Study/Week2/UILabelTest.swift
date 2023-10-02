@@ -63,7 +63,7 @@ class UILabelTest: UIViewController {
 import SwiftUI
 
 @available(iOS 13.0.0, *)
-struct UILabelTestPreView: PreviewProvider {
+struct UILabelTestPreview: PreviewProvider {
     static var previews: some View {
         UILabelTest().toPreview()
     }
