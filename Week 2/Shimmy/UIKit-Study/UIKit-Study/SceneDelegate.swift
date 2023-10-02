@@ -21,7 +21,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let window = UIWindow(windowScene: windowScene)
         
         // 처음 보일 main ViewController
-        let rootViewController = UITextFieldTest()
+        let rootViewController = UINavigationControllerTest()
         
         // NavigationController 설정
         let navigationController = UINavigationController(rootViewController: rootViewController)
