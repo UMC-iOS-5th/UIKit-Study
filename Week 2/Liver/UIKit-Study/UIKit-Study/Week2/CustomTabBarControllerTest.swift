@@ -7,7 +7,7 @@
 
 import UIKit
 
-class CustomTabBarControllerTest: ViewController {
+class CustomTabBarControllerTest: UIViewController {
     // MARK: - UITabBarController
     // FirstTabView
     private lazy var firstViewController: UIViewController = {
@@ -58,7 +58,7 @@ class CustomTabBarControllerTest: ViewController {
         // 현재의 ViewController에 tabBarController를 추가하는 부분
         // 현재 뷰의 자식으로 customTabBarController를 등록한다.
         addChild(customTabBarController)
-        view.addSubview(customTabBarController.view)
+        self.view.addSubview(customTabBarController.view)
         customTabBarController.didMove(toParent: self)
         
         setLayout()
@@ -91,7 +91,7 @@ class CustomTabBarControllerTest: ViewController {
 import SwiftUI
 
 @available(iOS 13.0.0, *)
-struct CumstomTabBarControllerTestPreView: PreviewProvider {
+struct CumstomTabBarControllerTestPreview: PreviewProvider {
     static var previews: some View {
         CustomTabBarControllerTest().toPreview()
     }

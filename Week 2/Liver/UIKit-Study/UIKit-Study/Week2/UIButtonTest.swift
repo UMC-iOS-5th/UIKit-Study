@@ -61,7 +61,7 @@ class UIButtonTest: UIViewController {
 import SwiftUI
 
 @available(iOS 13.0.0, *)
-struct UIButtonTestPreView: PreviewProvider {
+struct UIButtonTestPreview: PreviewProvider {
     static var previews: some View {
         UIButtonTest().toPreview()
     }

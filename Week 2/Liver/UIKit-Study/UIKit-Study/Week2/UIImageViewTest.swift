@@ -59,7 +59,7 @@ class UIImageViewTest: UIViewController {
 import SwiftUI
 
 @available(iOS 13.0.0, *)
-struct UIImageViewTestControllerPreView: PreviewProvider {
+struct UIImageViewTestControllerPreview: PreviewProvider {
     static var previews: some View {
         UIImageViewTest().toPreview()
     }

@@ -83,7 +83,7 @@ class UIStackViewTest: UIViewController {
 import SwiftUI
 
 @available(iOS 13.0.0, *)
-struct UIStackViewTestPreView: PreviewProvider {
+struct UIStackViewTestPreview: PreviewProvider {
     static var previews: some View {
         UIStackViewTest().toPreview()
     }

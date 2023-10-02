@@ -66,7 +66,7 @@ class UISliderTest: UIViewController {
 import SwiftUI
 
 @available(iOS 13.0.0, *)
-struct UISliderTestPreView: PreviewProvider {
+struct UISliderTestPreview: PreviewProvider {
     static var previews: some View {
         UISliderTest().toPreview()
     }
