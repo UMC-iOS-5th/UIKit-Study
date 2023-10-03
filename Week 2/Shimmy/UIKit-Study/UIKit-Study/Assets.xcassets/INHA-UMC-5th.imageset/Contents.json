@@ -1,7 +1,6 @@
 {
   "images" : [
     {
-      "filename" : "INHA-UMC-5th.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
@@ -11,6 +10,19 @@
     },
     {
       "idiom" : "universal",
+      "scale" : "3x"
+    },
+    {
+      "filename" : "INHA-UMC-5th.png",
+      "idiom" : "iphone",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "iphone",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "iphone",
       "scale" : "3x"
     }
   ],

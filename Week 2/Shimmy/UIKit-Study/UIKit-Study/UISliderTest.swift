@@ -12,9 +12,9 @@ class UISliderTest: UIViewController {
     
     private lazy var uiSlider: UISlider = {
         let slider = UISlider()
-        slider.minimumValue = 0
+        slider.minimumValue = 50
         slider.maximumValue = 100
-        slider.value = 50
+        slider.value = 60
         slider.addTarget(self, action: #selector(sliderValueChanged), for: .valueChanged)
         slider.translatesAutoresizingMaskIntoConstraints = false
         

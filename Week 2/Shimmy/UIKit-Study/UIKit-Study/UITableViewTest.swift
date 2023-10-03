@@ -28,7 +28,7 @@ class UITableViewTest: UIViewController, UITableViewDataSource, UITableViewDeleg
     // MARK: - UITableViewDataSource 메서드
         
     // 테이블 뷰에 표시할 데이터 배열
-    private let data = ["항목 1", "항목 2", "항목 3", "항목 4", "항목 5"]
+    private let data = ["항목 1", "항목 2", "항목 3", "항목 4", "항목 5", "항목 6"]
 
     // 섹션당 행의 개수를 반환하는 메서드
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

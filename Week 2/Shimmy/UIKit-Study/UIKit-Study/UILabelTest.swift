@@ -11,13 +11,14 @@ class UILabelTest: UIViewController {
     // MARK: - UILable
     private lazy var uiLabel: UILabel = {
         let label = UILabel()
-        label.text = "BLACKPINK\nIN\nYOUR\nAREA"
-        label.textAlignment = .left
+        label.text = "BLACKPINKINYOURAREA줄바꿈줄바꿈"
+        label.textAlignment = .center
         label.font = UIFont.boldSystemFont(ofSize: 32)
         label.textColor = .magenta
         label.backgroundColor = .darkGray
         label.translatesAutoresizingMaskIntoConstraints = false
         label.numberOfLines = 0
+        label.sizeToFit()
         return label
     }()
 

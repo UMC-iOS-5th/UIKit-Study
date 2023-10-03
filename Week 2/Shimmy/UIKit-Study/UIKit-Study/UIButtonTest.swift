@@ -19,7 +19,14 @@ class UIButtonTest: UIViewController {
         button.translatesAutoresizingMaskIntoConstraints = false
         button.layer.borderWidth = 2.0
         button.layer.borderColor = CGColor(red: 0, green: 0, blue: 0, alpha: 1)
-
+        button.layer.cornerRadius = 10
+        button.layer.masksToBounds = false
+        // false 일 때 conerRadius, shadow 동시적용
+        button.layer.shadowColor = UIColor.gray.cgColor
+        button.layer.shadowOpacity = 0.5
+        button.layer.shadowOffset = CGSize(width: 2, height: 2)
+        button.layer.shadowRadius = 5
+        
         // 패딩 설정인데.. iOS 15.0 이상부터 안쓴대요
         let padding: CGFloat = 10.0
         button.contentEdgeInsets = UIEdgeInsets(top: padding, left: padding, bottom: padding, right: padding)

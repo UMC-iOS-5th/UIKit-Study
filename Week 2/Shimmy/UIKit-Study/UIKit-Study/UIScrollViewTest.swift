@@ -53,7 +53,7 @@ class UIScrollViewTest: UIViewController {
         stackView.addArrangedSubview(scrollElementSecondView)
         stackView.addArrangedSubview(scrollElementThirdView)
         stackView.addArrangedSubview(scrollElementFourthView)
-        stackView.spacing = 0
+        stackView.spacing = 20
         stackView.translatesAutoresizingMaskIntoConstraints = false
         
         return stackView

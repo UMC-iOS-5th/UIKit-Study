@@ -13,6 +13,7 @@ class UIViewTest: UIViewController {
         let view = UIView()
         view.backgroundColor = .red
         view.translatesAutoresizingMaskIntoConstraints = false
+        // true면 autolayout이 적용 안됨
 
         return view
     }()

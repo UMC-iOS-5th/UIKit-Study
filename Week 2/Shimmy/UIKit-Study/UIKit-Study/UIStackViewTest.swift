@@ -29,6 +29,12 @@ class UIStackViewTest: UIViewController {
         view.backgroundColor = .blue
         return view
     }()
+    
+    private lazy var fourthView: UIView = {
+        let view = UIView()
+        view.backgroundColor = .blue
+        return view
+    }()
 
     private lazy var uiStackView: UIStackView = {
         let stackView = UIStackView()
@@ -36,8 +42,9 @@ class UIStackViewTest: UIViewController {
         stackView.addArrangedSubview(firstView)
         stackView.addArrangedSubview(secondView)
         stackView.addArrangedSubview(thirdView)
+        stackView.addArrangedSubview(fourthView)
         stackView.axis = .horizontal
-        stackView.spacing = 16
+        stackView.spacing = 48
         stackView.distribution = .fillEqually
         stackView.translatesAutoresizingMaskIntoConstraints = false
         return stackView

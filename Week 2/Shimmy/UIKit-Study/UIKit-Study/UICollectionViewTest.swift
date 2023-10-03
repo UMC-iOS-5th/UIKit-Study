@@ -30,7 +30,7 @@ class UICollectionViewTest: UIViewController, UICollectionViewDataSource, UIColl
     // MARK: - UICollectionViewDataSource 메서드
     // 특정 섹션에 속하는 아이템(셀)의 총 개수를 반환한다.
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 10
+        return 4
     }
     
     // 각 셀을 생성하고 구성하기 위해 호출
@@ -45,7 +45,7 @@ class UICollectionViewTest: UIViewController, UICollectionViewDataSource, UIColl
     
     // CollectionView에 들어갈 Item에 size에 대한 정보
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: 50, height: 50)
+        return CGSize(width: 100, height: 100)
     }
     
     // CollectionView에 들어갈 셀 사이의 minimum spacing에 대한 정보

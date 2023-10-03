@@ -13,7 +13,7 @@ class CustomTabBarControllerTest: UIViewController {
     private lazy var firstViewController: UIViewController = {
         let viewController = UIViewController()
         viewController.view.backgroundColor = .lightGray
-        viewController.tabBarItem = UITabBarItem(tabBarSystemItem: .favorites, tag: 0)
+        viewController.tabBarItem = UITabBarItem(tabBarSystemItem: .downloads, tag: 0)
         
         return viewController
     }()
@@ -23,7 +23,7 @@ class CustomTabBarControllerTest: UIViewController {
     private lazy var secondViewController: UIViewController = {
         let viewController = UIViewController()
         viewController.view.backgroundColor = .gray
-        viewController.tabBarItem = UITabBarItem(tabBarSystemItem: .favorites, tag: 1)
+        viewController.tabBarItem = UITabBarItem(tabBarSystemItem: .bookmarks, tag: 1)
         
         return viewController
     }()
@@ -32,7 +32,7 @@ class CustomTabBarControllerTest: UIViewController {
     private lazy var thirdViewController: UIViewController = {
         let viewController = UIViewController()
         viewController.view.backgroundColor = .darkGray
-        viewController.tabBarItem = UITabBarItem(tabBarSystemItem: .favorites, tag: 2)
+        viewController.tabBarItem = UITabBarItem(tabBarSystemItem: .more, tag: 2)
         
         return viewController
     }()
