@@ -9,6 +9,8 @@ import UIKit
 
 class CalcController: UIViewController  {
     
+    var updateViews: (()->Void)?
+    
     // MARK: - TableView DataSource Array
     let calcButtonCells: [CalculatorButton] = [
         .allClear, .plusMinus, .percentage, .divide,
@@ -25,11 +27,178 @@ class CalcController: UIViewController  {
      또한, lazy를 사용하여 처음에 초기화시키지 않고 초기화를 지연시켜 이후 값을 읽기 전용으로 사용되게 한다.
      초기화를 지연시키는 것에 대한 장점은 성능 향상으로 볼 수 있다.
      */
-    private(set) lazy var calcHeaderLabel: String = "0"
     
-    // MARK: - Variables
-    // MVVM 사용 시 ViewModel 선언
+    // MARK: - Normal Variable
+    private(set) lazy var calcHeaderLabel: String = (self.firstNumber ?? 0).description
+    private(set) var currentNumber: CurrentNumber = .firstNumber
     
+    private(set) var firstNumber: Int? = nil { didSet { self.calcHeaderLabel = self.firstNumber?.description ?? "0" }}
+    private(set) var secondNumber: Int? = nil { didSet { self.calcHeaderLabel = self.secondNumber?.description ?? "0" }}
+    private(set) var operation: CalculatorOperation? = nil
+    
+    // MARK: - Memory Variables
+    // equal을 계속 눌렀을 때 이전 숫자가 반복되서 연산되는 기능을 넣기 위해 변수 사용
+    private(set) var prevNumber: Int? = nil
+    private(set) var prevOperation: CalculatorOperation? = nil
+
+    
+    // MARK: - Businiss Logic
+    enum CurrentNumber {
+        case firstNumber
+        case secondNumber
+    }
+    
+    public func didSelectButton(with calcButton: CalculatorButton) {
+        switch calcButton {
+        case .allClear: self.didSelectAllclear()
+        case .plusMinus: self.didSelectPlusMinus()
+        case .percentage: self.didSelectPercentage()
+        case .divide: self.didSelectOperation(with: .divide)
+        case .multiply: self.didSelectOperation(with: .multiply)
+        case .subtract: self.didSelectOperation(with: .subtract)
+        case .add: self.didSelectOperation(with: .add)
+        case .equals: self.didSelectedEqualsButton()
+        case .number(let number): self.didSelectNumber(with: number)
+        case .decimal:
+            fatalError()
+        }
+        
+        self.updateViews?()
+    }
+    
+    // MARK: - All Clear
+    private func didSelectAllclear() {
+        self.currentNumber = .firstNumber
+        self.firstNumber = nil
+        self.secondNumber = nil
+        self.operation = nil
+        self.prevNumber = nil
+        self.prevOperation = nil
+    }
+    
+    // MARK: - Selecting Numbers
+    private func didSelectNumber(with number: Int) {
+        
+        if self.currentNumber == .firstNumber {
+            // 기존에 입력되어있던 firstNumber에 새로 입력한 (파라미터의)number를 뒤에 이어서 붙여주는 동작
+            if let firstNumber = self.firstNumber {
+                // 선택한 Number를 .description 프로퍼티를 통해 Int -> String으로 변환.
+                var firstNumberString = firstNumber.description
+                firstNumberString.append(number.description)
+                self.firstNumber = Int(firstNumberString)
+                self.prevNumber = Int(firstNumberString)
+            } else {
+                self.firstNumber = Int(number)
+                self.prevNumber = Int(number)
+            }
+        } else {
+            if let secondNumber = self.secondNumber {
+                var secondNumberString = secondNumber.description
+                secondNumberString.append(number.description)
+                self.secondNumber = Int(secondNumberString)
+                self.prevNumber = Int(secondNumberString)
+            } else {
+                self.secondNumber = Int(number)
+                self.prevNumber = Int(number)
+            }
+        }
+    }
+    
+    // MARK: - Equals & ArithmeticOperations
+    
+    private func didSelectedEqualsButton() {
+        
+        if let operation = self.operation,
+           let firstNumber = self.firstNumber,
+           let secondNumber = self.secondNumber {
+            
+            // firstNumber와 secondNumber 다음에 정상적으로 Equals가 눌러지는 경우
+            let result = self.getOperationResult(operation, firstNumber, secondNumber)
+            self.secondNumber = nil
+            self.prevOperation = operation
+            self.operation = nil
+            self.firstNumber = result
+            self.currentNumber = .firstNumber
+        } else if let prevOperation = self.prevOperation,
+                  let firstNumber = self.firstNumber,
+                  // 이전에 입력된 숫자가 없는 경우
+                  let prevNumber = self.prevNumber {
+            
+            // prevNumber와 operation을 기반한 연산으로 result가 업데이트된다.
+            let result = self.getOperationResult(prevOperation, firstNumber, prevNumber)
+            self.firstNumber = result
+        }
+    }
+    
+    private func didSelectOperation(with operation: CalculatorOperation) {
+        
+        // firstNumber와 operation만 입력된 상태일 때
+        if self.currentNumber == .firstNumber {
+            self.operation = operation
+            self.currentNumber = .secondNumber
+        // firstNumber, operation, secondNumber까지 입력된 상태일 때 -> 새로운 operation이 들어오면 이전의 결과값을 출력해준다.
+        } else if self.currentNumber == .secondNumber {
+            if let prevOperation = self.operation,
+               let firstNumber = self.firstNumber,
+               let secondNumber = self.secondNumber {
+                // 이후 추가로 연산자가 들어올 경우 이전 값을 출력해주고 새로운 연산자를 받아야 하는데, 출력 값은 이전에 입력받았던 연산자를 사용해야하므로, opearion이 아닌 prevOperation을 사용한다.
+                let result = self.getOperationResult(prevOperation, firstNumber, secondNumber)
+                self.secondNumber = nil
+                self.firstNumber = result
+                self.currentNumber = .secondNumber
+                self.operation = operation
+            } else {
+                // secondNumber가 없으면 operation만 새로 갱신해준다.
+                self.operation = operation
+            }
+        }
+    }
+    
+    // MARK: - Helper
+    private func getOperationResult(_ operation: CalculatorOperation, _ firstNumber: Int, _ secondNumber: Int) -> Int {
+        switch operation {
+        case .divide:
+            return (firstNumber / secondNumber)
+        case .multiply:
+            return (firstNumber * secondNumber)
+        case .subtract:
+            return (firstNumber - secondNumber)
+        case .add:
+            return (firstNumber + secondNumber)
+            
+        }
+    }
+    
+    // MARK: - Actiln Buttons
+    private func didSelectPlusMinus() {
+        // firstNumber만 입력된 경우
+        if self.currentNumber == .firstNumber, var number = self.firstNumber {
+            // negate() : 값의 부호를 바꾸는 메서드
+            number.negate()
+            self.firstNumber = number
+            self.prevNumber = number
+        } else if self.currentNumber == .secondNumber, var number = self.secondNumber {
+            // secondNumber까지 입력된 경우
+            number.negate()
+            self.secondNumber = number
+            self.prevNumber = number
+        }
+    }
+    
+    private func didSelectPercentage() {
+        // firstNumber만 입력된 경우
+        if self.currentNumber == .firstNumber, var number = self.firstNumber {
+            number /= 100
+            self.firstNumber = number
+            self.prevNumber = number
+        } else if self.currentNumber == .secondNumber, var number = self.secondNumber {
+            // secondNumber까지 입력된 경우
+            number /= 100
+            self.secondNumber = number
+            self.prevNumber = number
+        }
+    }
+
     // MARK: - UI Components
     private lazy var collectionView: UICollectionView = {
         let layout = UICollectionViewFlowLayout()
@@ -65,6 +234,12 @@ class CalcController: UIViewController  {
         
         self.collectionView.delegate = self
         self.collectionView.dataSource = self
+        
+        self.updateViews = { [weak self] in
+            DispatchQueue.main.async { [weak self] in
+                self?.collectionView.reloadData()
+            }
+        }
     }
     
     
@@ -123,14 +298,20 @@ extension CalcController: UICollectionViewDelegate, UICollectionViewDataSource, 
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForHeaderInSection section: Int) -> CGSize {
         
+        
+        // Cell Spacing
         let totalCellHeight = view.frame.size.width
         let totalVerticalCellSpacing = CGFloat(10*4)
+        
+        // Screen height
         let window = view.window?.windowScene?.keyWindow
         let topPadding = window?.safeAreaInsets.top ?? 0
         let bottomPadding = window?.safeAreaInsets.bottom ?? 0
         
         // (상단, 하단의 safeArea를 포함하는 padding은 제외한)사용 가능한 뷰의 height
         let avaliableScreenHeight = view.frame.size.height - topPadding - bottomPadding
+        
+        // Calculate Header Height
         let headerHeight = (avaliableScreenHeight - totalCellHeight) - totalVerticalCellSpacing
         
         return CGSize(width: view.frame.size.width, height: headerHeight)
@@ -149,6 +330,13 @@ extension CalcController: UICollectionViewDelegate, UICollectionViewDataSource, 
         }
         let calcButton = self.calcButtonCells[indexPath.row]
         cell.configure(with: calcButton)
+        
+        // firstNumber와 operation까지는 입력이 완료됐고, secondNumber는 입력이 되지 않은 상태라면, operation Button의 색상을 반전시킨다.
+        if let operation = self.operation, self.secondNumber == nil {
+            if operation.title == calcButton.title {
+                cell.setOperationSelected()
+            }
+        }
         
         return cell
     }
@@ -188,7 +376,7 @@ extension CalcController: UICollectionViewDelegate, UICollectionViewDataSource, 
     // 사용자가 셀을 터치할 때마다 해당 셀의 정보를 포함하는 'indexPath'를 통해 특정 동작을 수행 가능print(
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let buttonCell = self.calcButtonCells[indexPath.row]
-        print(buttonCell.title)
+        self.didSelectButton(with: buttonCell)
         /*
          비동기적으로 작업을 수행하기 위해 사용 (클로저를 앱의 메인 큐에서 비동기적으로 실행 가능.
          (여기서는 reloadData()를 메인 큐에서 비동기적으로 실행이 가능하다.)
