@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  MyCalculator
+//  MyCalculatorUsingMVVM
 //
 //  Created by Kyungsoo Lee on 2023/10/06.
 //

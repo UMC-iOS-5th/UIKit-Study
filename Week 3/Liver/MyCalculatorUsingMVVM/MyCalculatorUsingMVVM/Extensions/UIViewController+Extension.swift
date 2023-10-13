@@ -1,6 +1,6 @@
 //
 //  UIViewController+Extension.swift
-//  UIKit-Study
+//  MyCalculatorUsingMVVM
 //
 //  Created by Kyungsoo Lee on 2023/09/30.
 //

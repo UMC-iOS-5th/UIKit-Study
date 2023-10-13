@@ -1,6 +1,6 @@
 //
 //  CalculatorOperation.swift
-//  MyCalculator
+//  MyCalculatorUsingMVC
 //
 //  Created by Kyungsoo Lee on 2023/10/12.
 //
