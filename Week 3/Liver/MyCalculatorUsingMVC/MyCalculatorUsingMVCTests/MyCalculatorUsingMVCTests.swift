@@ -1,14 +1,14 @@
 //
-//  MyCalculatorTests.swift
-//  MyCalculatorTests
+//  MyCalculatorUsingMVCTests.swift
+//  MyCalculatorUsingMVCTests
 //
-//  Created by Kyungsoo Lee on 2023/10/06.
+//  Created by Kyungsoo Lee on 2023/10/14.
 //
 
 import XCTest
-@testable import MyCalculator
+@testable import MyCalculatorUsingMVC
 
-final class MyCalculatorTests: XCTestCase {
+final class MyCalculatorUsingMVCTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

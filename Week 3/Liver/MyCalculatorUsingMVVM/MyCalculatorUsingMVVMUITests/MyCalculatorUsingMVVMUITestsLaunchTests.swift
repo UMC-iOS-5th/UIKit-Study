@@ -1,13 +1,13 @@
 //
-//  MyCalculatorUITestsLaunchTests.swift
-//  MyCalculatorUITests
+//  MyCalculatorUsingMVVMUITestsLaunchTests.swift
+//  MyCalculatorUsingMVVMUITests
 //
-//  Created by Kyungsoo Lee on 2023/10/06.
+//  Created by Kyungsoo Lee on 2023/10/14.
 //
 
 import XCTest
 
-final class MyCalculatorUITestsLaunchTests: XCTestCase {
+final class MyCalculatorUsingMVVMUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
