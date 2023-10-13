@@ -121,6 +121,14 @@
 			path = Supporting;
 			sourceTree = "<group>";
 		};
+		F383424A2AD9CF2E00873A9F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F383869B2ACF4CD3008CF52D /* CalcController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		F383868B2ACF4CD3008CF52D = {
 			isa = PBXGroup;
 			children = (
@@ -144,7 +152,7 @@
 		F38386962ACF4CD3008CF52D /* MyCalculator */ = {
 			isa = PBXGroup;
 			children = (
-				F383869B2ACF4CD3008CF52D /* CalcController.swift */,
+				F383424A2AD9CF2E00873A9F /* ViewControllers */,
 				F3694B202AD53EF800D23E99 /* Views */,
 				F3694B1D2AD53E8400D23E99 /* Models */,
 				F38386CE2ACF5B8D008CF52D /* Extensions */,
