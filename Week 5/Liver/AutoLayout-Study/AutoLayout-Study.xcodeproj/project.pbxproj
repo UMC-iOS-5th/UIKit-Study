@@ -15,6 +15,12 @@
 		F368FD1D2ADE9B2800BFB9C1 /* AutoLayout_StudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F368FD1C2ADE9B2800BFB9C1 /* AutoLayout_StudyTests.swift */; };
 		F368FD272ADE9B2800BFB9C1 /* AutoLayout_StudyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F368FD262ADE9B2800BFB9C1 /* AutoLayout_StudyUITests.swift */; };
 		F368FD292ADE9B2800BFB9C1 /* AutoLayout_StudyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F368FD282ADE9B2800BFB9C1 /* AutoLayout_StudyUITestsLaunchTests.swift */; };
+		F368FD3E2ADE9D7C00BFB9C1 /* TempDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = F368FD3D2ADE9D7C00BFB9C1 /* TempDTO.swift */; };
+		F368FD402ADE9D8500BFB9C1 /* TempDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = F368FD3F2ADE9D8500BFB9C1 /* TempDomain.swift */; };
+		F368FD432ADE9E2D00BFB9C1 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = F368FD422ADE9E2D00BFB9C1 /* Network.swift */; };
+		F368FD492ADE9E7C00BFB9C1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F368FD482ADE9E7C00BFB9C1 /* LoginViewController.swift */; };
+		F368FD582ADFEC9700BFB9C1 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F368FD572ADFEC9700BFB9C1 /* UIViewController+Extension.swift */; };
+		F368FD5C2AE0534300BFB9C1 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F368FD5B2AE0534300BFB9C1 /* UIImage+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,12 +47,18 @@
 		F368FD092ADE9B2700BFB9C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F368FD0E2ADE9B2800BFB9C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F368FD112ADE9B2800BFB9C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F368FD132ADE9B2800BFB9C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F368FD182ADE9B2800BFB9C1 /* AutoLayout-StudyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AutoLayout-StudyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F368FD1C2ADE9B2800BFB9C1 /* AutoLayout_StudyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayout_StudyTests.swift; sourceTree = "<group>"; };
 		F368FD222ADE9B2800BFB9C1 /* AutoLayout-StudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AutoLayout-StudyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F368FD262ADE9B2800BFB9C1 /* AutoLayout_StudyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayout_StudyUITests.swift; sourceTree = "<group>"; };
 		F368FD282ADE9B2800BFB9C1 /* AutoLayout_StudyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayout_StudyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F368FD3D2ADE9D7C00BFB9C1 /* TempDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempDTO.swift; sourceTree = "<group>"; };
+		F368FD3F2ADE9D8500BFB9C1 /* TempDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempDomain.swift; sourceTree = "<group>"; };
+		F368FD422ADE9E2D00BFB9C1 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		F368FD482ADE9E7C00BFB9C1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F368FD572ADFEC9700BFB9C1 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		F368FD592ADFED8700BFB9C1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F368FD5B2AE0534300BFB9C1 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +109,10 @@
 		F368FD042ADE9B2700BFB9C1 /* AutoLayout-Study */ = {
 			isa = PBXGroup;
 			children = (
-				F368FD052ADE9B2700BFB9C1 /* AppDelegate.swift */,
-				F368FD072ADE9B2700BFB9C1 /* SceneDelegate.swift */,
+				F368FD532ADFEB9700BFB9C1 /* Resource */,
+				F368FD362ADE9CC000BFB9C1 /* Source */,
+				F368FD352ADE9CAF00BFB9C1 /* APP */,
 				F368FD092ADE9B2700BFB9C1 /* ViewController.swift */,
-				F368FD0E2ADE9B2800BFB9C1 /* Assets.xcassets */,
-				F368FD102ADE9B2800BFB9C1 /* LaunchScreen.storyboard */,
-				F368FD132ADE9B2800BFB9C1 /* Info.plist */,
 			);
 			path = "AutoLayout-Study";
 			sourceTree = "<group>";
@@ -122,6 +132,110 @@
 				F368FD282ADE9B2800BFB9C1 /* AutoLayout_StudyUITestsLaunchTests.swift */,
 			);
 			path = "AutoLayout-StudyUITests";
+			sourceTree = "<group>";
+		};
+		F368FD352ADE9CAF00BFB9C1 /* APP */ = {
+			isa = PBXGroup;
+			children = (
+				F368FD592ADFED8700BFB9C1 /* Info.plist */,
+				F368FD052ADE9B2700BFB9C1 /* AppDelegate.swift */,
+				F368FD072ADE9B2700BFB9C1 /* SceneDelegate.swift */,
+				F368FD102ADE9B2800BFB9C1 /* LaunchScreen.storyboard */,
+			);
+			path = APP;
+			sourceTree = "<group>";
+		};
+		F368FD362ADE9CC000BFB9C1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				F368FD372ADE9CDB00BFB9C1 /* Data */,
+				F368FD3A2ADE9D1C00BFB9C1 /* Login */,
+				F368FD3C2ADE9D3A00BFB9C1 /* Util */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		F368FD372ADE9CDB00BFB9C1 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				F368FD392ADE9CE800BFB9C1 /* Domain */,
+				F368FD382ADE9CE400BFB9C1 /* DTO */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		F368FD382ADE9CE400BFB9C1 /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				F368FD3D2ADE9D7C00BFB9C1 /* TempDTO.swift */,
+			);
+			path = DTO;
+			sourceTree = "<group>";
+		};
+		F368FD392ADE9CE800BFB9C1 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				F368FD3F2ADE9D8500BFB9C1 /* TempDomain.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		F368FD3A2ADE9D1C00BFB9C1 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F368FD452ADE9E4400BFB9C1 /* View */,
+				F368FD442ADE9E3E00BFB9C1 /* ViewController */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		F368FD3C2ADE9D3A00BFB9C1 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				F368FD562ADFEC8400BFB9C1 /* Extension */,
+				F368FD412ADE9E2000BFB9C1 /* Network */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		F368FD412ADE9E2000BFB9C1 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				F368FD422ADE9E2D00BFB9C1 /* Network.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		F368FD442ADE9E3E00BFB9C1 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F368FD482ADE9E7C00BFB9C1 /* LoginViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F368FD452ADE9E4400BFB9C1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F368FD532ADFEB9700BFB9C1 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				F368FD0E2ADE9B2800BFB9C1 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		F368FD562ADFEC8400BFB9C1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F368FD572ADFEC9700BFB9C1 /* UIViewController+Extension.swift */,
+				F368FD5B2AE0534300BFB9C1 /* UIImage+Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,7 +368,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F368FD582ADFEC9700BFB9C1 /* UIViewController+Extension.swift in Sources */,
 				F368FD0A2ADE9B2700BFB9C1 /* ViewController.swift in Sources */,
+				F368FD3E2ADE9D7C00BFB9C1 /* TempDTO.swift in Sources */,
+				F368FD492ADE9E7C00BFB9C1 /* LoginViewController.swift in Sources */,
+				F368FD432ADE9E2D00BFB9C1 /* Network.swift in Sources */,
+				F368FD402ADE9D8500BFB9C1 /* TempDomain.swift in Sources */,
+				F368FD5C2AE0534300BFB9C1 /* UIImage+Extension.swift in Sources */,
 				F368FD062ADE9B2700BFB9C1 /* AppDelegate.swift in Sources */,
 				F368FD082ADE9B2700BFB9C1 /* SceneDelegate.swift in Sources */,
 			);
@@ -432,7 +552,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G64N5NJ4Q6;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "AutoLayout-Study/Info.plist";
+				INFOPLIST_FILE = "AutoLayout-Study/APP/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -459,7 +579,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G64N5NJ4Q6;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "AutoLayout-Study/Info.plist";
+				INFOPLIST_FILE = "AutoLayout-Study/APP/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
