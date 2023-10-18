@@ -21,6 +21,8 @@
 		F368FD492ADE9E7C00BFB9C1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F368FD482ADE9E7C00BFB9C1 /* LoginViewController.swift */; };
 		F368FD582ADFEC9700BFB9C1 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F368FD572ADFEC9700BFB9C1 /* UIViewController+Extension.swift */; };
 		F368FD5C2AE0534300BFB9C1 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F368FD5B2AE0534300BFB9C1 /* UIImage+Extension.swift */; };
+		F368FD652AE06FCF00BFB9C1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F368FD642AE06FCF00BFB9C1 /* HomeViewController.swift */; };
+		F368FD682AE0794F00BFB9C1 /* UniversityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F368FD672AE0794F00BFB9C1 /* UniversityCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		F368FD572ADFEC9700BFB9C1 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		F368FD592ADFED8700BFB9C1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F368FD5B2AE0534300BFB9C1 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		F368FD642AE06FCF00BFB9C1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F368FD672AE0794F00BFB9C1 /* UniversityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +152,7 @@
 		F368FD362ADE9CC000BFB9C1 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				F368FD622AE06FBB00BFB9C1 /* Home */,
 				F368FD372ADE9CDB00BFB9C1 /* Data */,
 				F368FD3A2ADE9D1C00BFB9C1 /* Login */,
 				F368FD3C2ADE9D3A00BFB9C1 /* Util */,
@@ -236,6 +241,31 @@
 				F368FD5B2AE0534300BFB9C1 /* UIImage+Extension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		F368FD622AE06FBB00BFB9C1 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F368FD662AE0793600BFB9C1 /* View */,
+				F368FD632AE06FC300BFB9C1 /* ViewController */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F368FD632AE06FC300BFB9C1 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F368FD642AE06FCF00BFB9C1 /* HomeViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F368FD662AE0793600BFB9C1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F368FD672AE0794F00BFB9C1 /* UniversityCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -373,8 +403,10 @@
 				F368FD3E2ADE9D7C00BFB9C1 /* TempDTO.swift in Sources */,
 				F368FD492ADE9E7C00BFB9C1 /* LoginViewController.swift in Sources */,
 				F368FD432ADE9E2D00BFB9C1 /* Network.swift in Sources */,
+				F368FD652AE06FCF00BFB9C1 /* HomeViewController.swift in Sources */,
 				F368FD402ADE9D8500BFB9C1 /* TempDomain.swift in Sources */,
 				F368FD5C2AE0534300BFB9C1 /* UIImage+Extension.swift in Sources */,
+				F368FD682AE0794F00BFB9C1 /* UniversityCell.swift in Sources */,
 				F368FD062ADE9B2700BFB9C1 /* AppDelegate.swift in Sources */,
 				F368FD082ADE9B2700BFB9C1 /* SceneDelegate.swift in Sources */,
 			);
