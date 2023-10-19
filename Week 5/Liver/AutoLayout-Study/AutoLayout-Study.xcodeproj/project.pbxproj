@@ -23,6 +23,7 @@
 		F368FD5C2AE0534300BFB9C1 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F368FD5B2AE0534300BFB9C1 /* UIImage+Extension.swift */; };
 		F368FD652AE06FCF00BFB9C1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F368FD642AE06FCF00BFB9C1 /* HomeViewController.swift */; };
 		F368FD682AE0794F00BFB9C1 /* UniversityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F368FD672AE0794F00BFB9C1 /* UniversityCell.swift */; };
+		F37A26782AE1376F00D8566A /* WorkbookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37A26772AE1376F00D8566A /* WorkbookViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		F368FD5B2AE0534300BFB9C1 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 		F368FD642AE06FCF00BFB9C1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		F368FD672AE0794F00BFB9C1 /* UniversityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityCell.swift; sourceTree = "<group>"; };
+		F37A26772AE1376F00D8566A /* WorkbookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkbookViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,8 +154,9 @@
 		F368FD362ADE9CC000BFB9C1 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				F368FD622AE06FBB00BFB9C1 /* Home */,
 				F368FD372ADE9CDB00BFB9C1 /* Data */,
+				F37A26762AE1375B00D8566A /* Workbook */,
+				F368FD622AE06FBB00BFB9C1 /* Home */,
 				F368FD3A2ADE9D1C00BFB9C1 /* Login */,
 				F368FD3C2ADE9D3A00BFB9C1 /* Util */,
 			);
@@ -266,6 +269,14 @@
 				F368FD672AE0794F00BFB9C1 /* UniversityCell.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		F37A26762AE1375B00D8566A /* Workbook */ = {
+			isa = PBXGroup;
+			children = (
+				F37A26772AE1376F00D8566A /* WorkbookViewController.swift */,
+			);
+			path = Workbook;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -404,6 +415,7 @@
 				F368FD492ADE9E7C00BFB9C1 /* LoginViewController.swift in Sources */,
 				F368FD432ADE9E2D00BFB9C1 /* Network.swift in Sources */,
 				F368FD652AE06FCF00BFB9C1 /* HomeViewController.swift in Sources */,
+				F37A26782AE1376F00D8566A /* WorkbookViewController.swift in Sources */,
 				F368FD402ADE9D8500BFB9C1 /* TempDomain.swift in Sources */,
 				F368FD5C2AE0534300BFB9C1 /* UIImage+Extension.swift in Sources */,
 				F368FD682AE0794F00BFB9C1 /* UniversityCell.swift in Sources */,
