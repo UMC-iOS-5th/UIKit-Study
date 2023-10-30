@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  231003
+//  week5-mission
 //
-//  Created by Seungbo Shim on 2023/10/03.
+//  Created by Seungbo Shim on 2023/10/24.
 //
 
 import UIKit

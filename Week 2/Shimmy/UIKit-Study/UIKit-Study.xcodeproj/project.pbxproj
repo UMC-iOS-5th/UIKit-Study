@@ -20,6 +20,16 @@
 		038BBFE72ACB65DC00D713FC /* UITextFieldTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038BBFE12ACB65DC00D713FC /* UITextFieldTest.swift */; };
 		038BBFEB2ACB664300D713FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038BBFE92ACB664300D713FC /* SceneDelegate.swift */; };
 		038BBFEC2ACB664300D713FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038BBFEA2ACB664300D713FC /* ViewController.swift */; };
+		038BBFEE2ACB6DB600D713FC /* UITextViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038BBFED2ACB6DB600D713FC /* UITextViewTest.swift */; };
+		038BBFF02ACB6DCA00D713FC /* UIImageViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038BBFEF2ACB6DCA00D713FC /* UIImageViewTest.swift */; };
+		038BBFF22ACB6DD900D713FC /* UITableViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038BBFF12ACB6DD900D713FC /* UITableViewTest.swift */; };
+		038BBFF42ACB6DF800D713FC /* UICollectionViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038BBFF32ACB6DF800D713FC /* UICollectionViewTest.swift */; };
+		038BBFF62ACB6E1800D713FC /* UISegmentedControlTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038BBFF52ACB6E1700D713FC /* UISegmentedControlTest.swift */; };
+		038BBFF82ACB6E7000D713FC /* UISliderTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038BBFF72ACB6E7000D713FC /* UISliderTest.swift */; };
+		038BBFFA2ACB6E9900D713FC /* CustomTabBarControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038BBFF92ACB6E9900D713FC /* CustomTabBarControllerTest.swift */; };
+		038BBFFC2ACB6EA900D713FC /* UIStackViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038BBFFB2ACB6EA900D713FC /* UIStackViewTest.swift */; };
+		038BBFFE2ACB6EBC00D713FC /* UINavigationControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038BBFFD2ACB6EBC00D713FC /* UINavigationControllerTest.swift */; };
+		038BC0002ACB6ECB00D713FC /* UIScrollViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038BBFFF2ACB6ECB00D713FC /* UIScrollViewTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +67,16 @@
 		038BBFE12ACB65DC00D713FC /* UITextFieldTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldTest.swift; sourceTree = "<group>"; };
 		038BBFE92ACB664300D713FC /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		038BBFEA2ACB664300D713FC /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		038BBFED2ACB6DB600D713FC /* UITextViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UITextViewTest.swift; path = ../../../../../../../Documents/UITextViewTest.swift; sourceTree = "<group>"; };
+		038BBFEF2ACB6DCA00D713FC /* UIImageViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewTest.swift; sourceTree = "<group>"; };
+		038BBFF12ACB6DD900D713FC /* UITableViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewTest.swift; sourceTree = "<group>"; };
+		038BBFF32ACB6DF800D713FC /* UICollectionViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewTest.swift; sourceTree = "<group>"; };
+		038BBFF52ACB6E1700D713FC /* UISegmentedControlTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISegmentedControlTest.swift; sourceTree = "<group>"; };
+		038BBFF72ACB6E7000D713FC /* UISliderTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISliderTest.swift; sourceTree = "<group>"; };
+		038BBFF92ACB6E9900D713FC /* CustomTabBarControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarControllerTest.swift; sourceTree = "<group>"; };
+		038BBFFB2ACB6EA900D713FC /* UIStackViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStackViewTest.swift; sourceTree = "<group>"; };
+		038BBFFD2ACB6EBC00D713FC /* UINavigationControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationControllerTest.swift; sourceTree = "<group>"; };
+		038BBFFF2ACB6ECB00D713FC /* UIScrollViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScrollViewTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,17 +127,27 @@
 		038BBFAC2ACB655E00D713FC /* UIKit-Study */ = {
 			isa = PBXGroup;
 			children = (
-				038BBFDD2ACB65DB00D713FC /* UIButtonTest.swift */,
 				038BBFE92ACB664300D713FC /* SceneDelegate.swift */,
 				038BBFEA2ACB664300D713FC /* ViewController.swift */,
-				038BBFDE2ACB65DB00D713FC /* UILabelTest.swift */,
-				038BBFE12ACB65DC00D713FC /* UITextFieldTest.swift */,
-				038BBFE02ACB65DC00D713FC /* UIViewTest.swift */,
 				038BBFAD2ACB655E00D713FC /* AppDelegate.swift */,
 				038BBFB32ACB655E00D713FC /* Main.storyboard */,
 				038BBFB62ACB655F00D713FC /* Assets.xcassets */,
 				038BBFB82ACB655F00D713FC /* LaunchScreen.storyboard */,
 				038BBFBB2ACB655F00D713FC /* Info.plist */,
+				038BBFE02ACB65DC00D713FC /* UIViewTest.swift */,
+				038BBFDE2ACB65DB00D713FC /* UILabelTest.swift */,
+				038BBFDD2ACB65DB00D713FC /* UIButtonTest.swift */,
+				038BBFE12ACB65DC00D713FC /* UITextFieldTest.swift */,
+				038BBFED2ACB6DB600D713FC /* UITextViewTest.swift */,
+				038BBFEF2ACB6DCA00D713FC /* UIImageViewTest.swift */,
+				038BBFF12ACB6DD900D713FC /* UITableViewTest.swift */,
+				038BBFF32ACB6DF800D713FC /* UICollectionViewTest.swift */,
+				038BBFF52ACB6E1700D713FC /* UISegmentedControlTest.swift */,
+				038BBFF72ACB6E7000D713FC /* UISliderTest.swift */,
+				038BBFF92ACB6E9900D713FC /* CustomTabBarControllerTest.swift */,
+				038BBFFB2ACB6EA900D713FC /* UIStackViewTest.swift */,
+				038BBFFD2ACB6EBC00D713FC /* UINavigationControllerTest.swift */,
+				038BBFFF2ACB6ECB00D713FC /* UIScrollViewTest.swift */,
 			);
 			path = "UIKit-Study";
 			sourceTree = "<group>";
@@ -270,13 +300,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				038BBFFA2ACB6E9900D713FC /* CustomTabBarControllerTest.swift in Sources */,
 				038BBFAE2ACB655E00D713FC /* AppDelegate.swift in Sources */,
+				038BBFF22ACB6DD900D713FC /* UITableViewTest.swift in Sources */,
+				038BBFF42ACB6DF800D713FC /* UICollectionViewTest.swift in Sources */,
 				038BBFE42ACB65DC00D713FC /* UILabelTest.swift in Sources */,
 				038BBFE32ACB65DC00D713FC /* UIButtonTest.swift in Sources */,
 				038BBFE62ACB65DC00D713FC /* UIViewTest.swift in Sources */,
+				038BBFF62ACB6E1800D713FC /* UISegmentedControlTest.swift in Sources */,
 				038BBFEC2ACB664300D713FC /* ViewController.swift in Sources */,
+				038BBFFC2ACB6EA900D713FC /* UIStackViewTest.swift in Sources */,
+				038BBFFE2ACB6EBC00D713FC /* UINavigationControllerTest.swift in Sources */,
+				038BBFEE2ACB6DB600D713FC /* UITextViewTest.swift in Sources */,
+				038BBFF02ACB6DCA00D713FC /* UIImageViewTest.swift in Sources */,
+				038BBFF82ACB6E7000D713FC /* UISliderTest.swift in Sources */,
 				038BBFE72ACB65DC00D713FC /* UITextFieldTest.swift in Sources */,
 				038BBFEB2ACB664300D713FC /* SceneDelegate.swift in Sources */,
+				038BC0002ACB6ECB00D713FC /* UIScrollViewTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,7 +498,7 @@
 				INFOPLIST_FILE = "UIKit-Study/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -486,7 +526,7 @@
 				INFOPLIST_FILE = "UIKit-Study/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
