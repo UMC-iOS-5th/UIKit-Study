@@ -92,6 +92,7 @@ class MainViewController: UIViewController {
     
     // MARK: - Set up
     private func setupUI() {
+        self.view.backgroundColor = .white
         // self.view 는 전체 view(부모)
         // 전체 view에 각각의 view를 추가
         // 추가한 순서대로 z 값이 정해짐 (나중에 넣은 black이 제일 위로 감)
@@ -113,7 +114,7 @@ class MainViewController: UIViewController {
     private func setTitleLabelLayout() {
         let titleLabelConstraint = [
             self.titleLabel.centerXAnchor.constraint(equalTo: self.view.centerXAnchor),
-            self.titleLabel.topAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.topAnchor, constant: 100),
+            self.titleLabel.bottomAnchor.constraint(equalTo: self.subTitleLabel.topAnchor),
         ]
         NSLayoutConstraint.activate(titleLabelConstraint)
     }
@@ -121,7 +122,8 @@ class MainViewController: UIViewController {
     private func setSubTitleLabelLayout() {
         let subTitleLabelConstraint = [
             self.subTitleLabel.centerXAnchor.constraint(equalTo: self.view.centerXAnchor),
-            self.subTitleLabel.topAnchor.constraint(equalTo: self.titleLabel.bottomAnchor),
+            //self.subTitleLabel.topAnchor.constraint(equalTo: self.titleLabel.bottomAnchor),
+            self.subTitleLabel.bottomAnchor.constraint(equalTo: self.logoView.topAnchor, constant: -80)
         ]
         NSLayoutConstraint.activate(subTitleLabelConstraint)
     }

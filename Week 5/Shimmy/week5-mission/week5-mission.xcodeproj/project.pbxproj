@@ -16,6 +16,7 @@
 		03887C522AE791A0008C0635 /* week5_missionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03887C512AE791A0008C0635 /* week5_missionUITests.swift */; };
 		03887C542AE791A0008C0635 /* week5_missionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03887C532AE791A0008C0635 /* week5_missionUITestsLaunchTests.swift */; };
 		03EABFFB2AEF95AA00C80B72 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EABFFA2AEF95AA00C80B72 /* MainViewController.swift */; };
+		03EABFFD2AF02E2900C80B72 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EABFFC2AF02E2900C80B72 /* MenuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		03887C512AE791A0008C0635 /* week5_missionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = week5_missionUITests.swift; sourceTree = "<group>"; };
 		03887C532AE791A0008C0635 /* week5_missionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = week5_missionUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		03EABFFA2AEF95AA00C80B72 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		03EABFFC2AF02E2900C80B72 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				03887C3B2AE791A0008C0635 /* LaunchScreen.storyboard */,
 				03887C3E2AE791A0008C0635 /* Info.plist */,
 				03EABFFA2AEF95AA00C80B72 /* MainViewController.swift */,
+				03EABFFC2AF02E2900C80B72 /* MenuViewController.swift */,
 			);
 			path = "week5-mission";
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				03887C352AE7919F008C0635 /* ViewController.swift in Sources */,
+				03EABFFD2AF02E2900C80B72 /* MenuViewController.swift in Sources */,
 				03887C312AE7919F008C0635 /* AppDelegate.swift in Sources */,
 				03887C332AE7919F008C0635 /* SceneDelegate.swift in Sources */,
 				03EABFFB2AEF95AA00C80B72 /* MainViewController.swift in Sources */,
