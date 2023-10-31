@@ -107,8 +107,8 @@
 				03887C392AE791A0008C0635 /* Assets.xcassets */,
 				03887C3B2AE791A0008C0635 /* LaunchScreen.storyboard */,
 				03887C3E2AE791A0008C0635 /* Info.plist */,
-				03EABFFA2AEF95AA00C80B72 /* MainViewController.swift */,
-				03EABFFC2AF02E2900C80B72 /* MenuViewController.swift */,
+				03FBD2BF2AF0C736002C459B /* Main */,
+				03FBD2BB2AF0C6DC002C459B /* Menu */,
 			);
 			path = "week5-mission";
 			sourceTree = "<group>";
@@ -128,6 +128,46 @@
 				03887C532AE791A0008C0635 /* week5_missionUITestsLaunchTests.swift */,
 			);
 			path = "week5-missionUITests";
+			sourceTree = "<group>";
+		};
+		03FBD2BB2AF0C6DC002C459B /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				03FBD2BE2AF0C6F4002C459B /* ViewController */,
+				03FBD2BC2AF0C6E4002C459B /* View */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		03FBD2BC2AF0C6E4002C459B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		03FBD2BE2AF0C6F4002C459B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				03EABFFC2AF02E2900C80B72 /* MenuViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		03FBD2BF2AF0C736002C459B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				03FBD2C02AF0C740002C459B /* ViewController */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		03FBD2C02AF0C740002C459B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				03EABFFA2AEF95AA00C80B72 /* MainViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

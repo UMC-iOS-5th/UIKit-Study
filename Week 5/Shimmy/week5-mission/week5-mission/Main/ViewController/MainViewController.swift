@@ -34,7 +34,14 @@ class MainViewController: UIViewController {
     private lazy var logoView: UIImageView = {
         let imageView = UIImageView()
         imageView.image = UIImage(named: "INHA-UMC-5th")
-        imageView.layer.cornerRadius = 30
+        imageView.layer.cornerRadius = 100
+
+        imageView.clipsToBounds = true
+        // cornerRadius 적용시 추가
+        
+        //imageView.layer.masksToBounds = false
+        // 이건 shadow 같이쓸때 추가
+        // 이걸 뒤에 선언하니까 clipsToBounds가 묻힘
         imageView.translatesAutoresizingMaskIntoConstraints = false
         return imageView
     }()
