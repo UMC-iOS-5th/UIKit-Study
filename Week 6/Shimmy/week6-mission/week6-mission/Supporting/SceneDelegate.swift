@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  week5-mission
+//  week6-mission
 //
-//  Created by Seungbo Shim on 2023/10/24.
+//  Created by Seungbo Shim on 2023/11/07.
 //
 
 import UIKit
@@ -21,7 +21,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             let window = UIWindow(windowScene: windowScene)
             
             // 처음 보일 main ViewController
-            let rootViewController = MainViewController()
+            let rootViewController = CalcController()
             
             // NavigationController 설정
             let navigationController = UINavigationController(rootViewController: rootViewController)
