@@ -61,6 +61,13 @@ extension CalculatorButton {
         }
     }
     
+    enum Color: String {
+        case lightGray
+        case systemOrange
+        case darkGray
+        case white
+    }
+    
     // 원래 버튼 색
     var color: UIColor {
         switch self {

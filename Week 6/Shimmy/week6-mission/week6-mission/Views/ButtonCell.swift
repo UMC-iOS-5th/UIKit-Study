@@ -36,10 +36,16 @@ class ButtonCell: UICollectionViewCell {
         self.setupUI()
     }
     
+    public func setOperationSelected() {
+        self.titleLabel.textColor = .orange
+        self.backgroundColor = .white
+    }
+    
     private func setupUI() {
         self.addSubview(titleLabel)
         titleLabel.translatesAutoresizingMaskIntoConstraints = false
         
+        // 버튼 모양 둥글게 cornerRadius 조절 (0버튼만 다르게)
         switch self.calculatorButton {
         case let .number(int) where int == 0:
             self.layer.cornerRadius = 36
@@ -48,10 +54,6 @@ class ButtonCell: UICollectionViewCell {
             self.layer.cornerRadius = self.frame.size.width/2
         }
         
-        
-        // 버튼 모양 둥글게 cornerRadius 조절
-        //self.layer.cornerRadius = self.frame.size.width/2
-        
         // titleLable 위치를 각 버튼의 가운데로 설정
         NSLayoutConstraint.activate([
             self.titleLabel.centerXAnchor.constraint(equalTo: self.centerXAnchor),
@@ -59,5 +61,9 @@ class ButtonCell: UICollectionViewCell {
             self.titleLabel.heightAnchor.constraint(equalTo: self.heightAnchor),
             self.titleLabel.widthAnchor.constraint(equalTo: self.widthAnchor),
         ])
+    }
+    
+    override func prepareForReuse() {
+        
     }
 }
